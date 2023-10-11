@@ -1,0 +1,24 @@
+@media (max-width: 1000px) {
+  .navbar-hidden-text {
+    display: none !important;
+  }
+}
+
+#sidebar-nav
+{
+  background-color:rgba(6,50,87,0.8);
+}
+
+#sidebar-nav-inner ul li a
+{
+  font-weight:700;
+  color:#007FFF;
+  transition:color .5s ease-in;
+}
+
+#sidebar-nav-inner ul li a:hover
+{
+  font-weight:700;
+  color:#FFF;
+  background-color:rgba(6,50,87,0);
+}
